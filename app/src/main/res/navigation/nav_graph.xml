@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/scannerFragment">
+
+    <fragment
+        android:id="@+id/scannerFragment"
+        android:name="com.example.nuitration_scanner_app.ui.scanner.ScannerFragment"
+        android:label="@string/scanner_title">
+        <action
+            android:id="@+id/action_scannerFragment_to_productDetailFragment"
+            app:destination="@id/productDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.example.nuitration_scanner_app.ui.product.ProductDetailFragment"
+        android:label="@string/product_detail_title">
+        <argument
+            android:name="barcode"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

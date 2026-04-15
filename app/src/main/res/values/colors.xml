@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#1F6FEB</color>
+    <color name="brand_primary_dark">#1558C0</color>
+    <color name="brand_accent">#2EA043</color>
+    <color name="screen_background">#F4F7FB</color>
+    <color name="card_background">#FFFFFFFF</color>
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="error_text">#B42318</color>
+    <color name="divider">#E5E7EB</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
